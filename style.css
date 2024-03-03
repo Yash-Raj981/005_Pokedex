@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 html {
-  width: 100vw;
+  width: 99vw;
 }
 body {
   background: linear-gradient(90deg, #d4d3dd, #efefbb);
@@ -15,7 +15,7 @@ body {
   justify-content: center;
 }
 .container {
-  width: 90%;
+  width: 85%;
 }
 .container h1 {
   font-size: 45px;
