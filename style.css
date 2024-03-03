@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  width: 100vw;
+}
+body {
+  background: linear-gradient(90deg, #d4d3dd, #efefbb);
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+}
+.container h1 {
+  font-size: 45px;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+#pokemons {
+  width: 100%;
+  margin-top: 20px 0 90px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.poke-card {
+  width: 15%;
+  height: 260px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  border-radius: 10px;
+  transition: transform 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.poke-card:hover {
+  scale: 1.05;
+}
+.poke-card--front {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.poke-image {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  text-align: center;
+  width: 90%;
+}
+.poke-card img {
+  width: 85px;
+  height: 85px;
+  margin-top: 20px;
+}
+
+.poke-info {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.pokemon-id {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+.pokemon-name {
+  margin: 15px 0 7px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.pokemon-type {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1360px) {
+  body {
+    width: 100%;
+  }
+  .container {
+    width: 90%;
+  }
+  .poke-card {
+    width: 20%;
+    height: 260px;
+  }
+  .poke-card img {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+  .container {
+    width: 90%;
+  }
+  .poke-card {
+    width: 40%;
+    height: 270px;
+  }
+  .poke-card img {
+    width: 80%;
+  }
+  .poke-info {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  .container {
+    width: 90%;
+  }
+  .poke-card {
+    width: 70%;
+    height: 250px;
+  }
+  .poke-card img {
+    width: 100px;
+    height: 100px;
+  }
+  .poke-info {
+    margin-top: 10px;
+  }
+}
