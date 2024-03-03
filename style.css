@@ -6,9 +6,6 @@
   font-family: "Lato", sans-serif;
   box-sizing: border-box;
 }
-html {
-  width: 99vw;
-}
 body {
   background: linear-gradient(90deg, #d4d3dd, #efefbb);
   display: flex;
