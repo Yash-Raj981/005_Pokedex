@@ -21,6 +21,7 @@ The project was made by using the IDE "Visual Studio Code" to write the code and
 - HTML5
 - CSS3
 - JavaScript Vanilla
+- API
 
 ## Installation 💻💡
 
